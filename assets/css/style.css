@@ -1,0 +1,43 @@
+.tarjeta {
+    margin: 3.5%;
+    display: inline-block;
+ }
+
+#contenido {
+    background-color: darkcyan;
+    margin: 0;
+
+}
+
+#botones{
+    display: block;
+    
+
+}
+
+#musica{
+   display: inline-block;
+
+}
+
+.zoom {
+    transition: transform .5s ;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+
+}
+
+.card-body{
+    background-color: grey;
+    color: beige;
+    border: 3%, solid, black
+
+}
+.navbar{
+    margin: 0% !important;
+}
+.contenido{
+    background-color: darkcyan;
+}
