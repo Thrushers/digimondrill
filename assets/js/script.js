@@ -24,18 +24,8 @@ fetch(url)
         </div>
         </div>`
     }
-    //input.addEventListener("keyup", e =>{
-        //console.log(input.value)
-    
-//})
-
-
+ 
 })
-
-var url = "https://digimon-api.vercel.app/api/digimon"
-
-
-
 
 fetch(url)
 
@@ -44,23 +34,7 @@ fetch(url)
 .then(datos => {
  console.log(datos)
 
- console.log(datos[1].name)
-
-
-
- var contenido = document.querySelector("#contenido")
-
- for (let item of datos) {
-
- contenido.innerHTML+=`
-
-
-
-    <li> ${item.name}</li>
- `
-}
-
-})
+ console.log(datos[1].name)})
 
 
 
